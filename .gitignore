@@ -1,8 +1,29 @@
-__pycache__/
-.ipynb_checkpoints/
+# Environnement virtuel
 .venv/
-.env
+venv-metal/
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data lourde
 data/raw/
+data/processed/*.csv
+data/processed/*.npy
+data/processed/*.parquet
+
+# Modèles
 models/
 *.pkl
+*.h5
+*.pt
+*.bin
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Mac
 .DS_Store
