@@ -1,6 +1,8 @@
 # Environnement virtuel
+venv/
 .venv/
 venv-metal/
+
 __pycache__/
 *.pyc
 *.pyo
@@ -13,8 +15,6 @@ data/raw/
 data/processed/*.csv
 data/processed/*.npy
 data/processed/*.parquet
-
-
 
 # Secrets
 .env
