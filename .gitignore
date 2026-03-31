@@ -14,12 +14,7 @@ data/processed/*.csv
 data/processed/*.npy
 data/processed/*.parquet
 
-# Modèles
-models/
-*.pkl
-*.h5
-*.pt
-*.bin
+
 
 # Secrets
 .env
