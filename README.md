@@ -25,6 +25,7 @@ The goal is to extract insights, predict sentiment, and provide explanations and
 ```bash
 nlp_project2/
 ├── app/                    # Streamlit application
+│   ├── models/             # Models (tfidf_lr.pkl)
 │   ├── pages/              # App pages (Prediction, Summary, etc.)
 │   ├── streamlit_app.py    # Main app entry point
 │
@@ -32,14 +33,9 @@ nlp_project2/
 │   ├── raw/                # Raw data (Excel files)
 │   ├── processed/          # Cleaned datasets
 │
-├── models/                 # Trained models
-│   └── tfidf_lr.pkl
-│
 ├── notebooks/              # Jupyter notebooks (EDA, modeling)
 │
-├── src/                    # Source code (processing, modeling)
-│
-├── reports/                # Figures and outputs
+├── report/                 # video
 │
 ├── requirements.txt
 └── README.md
@@ -110,9 +106,9 @@ The dataset consists of customer reviews collected from multiple sources and tra
 
 1. Data cleaning and preprocessing
 2. Exploratory Data Analysis (EDA)
-3. Feature extraction (TF-IDF, embeddings)
-4. Supervised learning (Logistic Regression)
-5. Topic modeling
+3. Topic modeling
+4. Feature extraction (TF-IDF, embeddings)
+5. Supervised learning (Logistic Regression)
 6. Model evaluation and interpretation
 
 ---
